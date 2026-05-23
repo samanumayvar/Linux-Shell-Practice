@@ -1,0 +1,7 @@
+echo"Trump: Iran i will blast you to the stone age"
+echo "Iran: We will blast you to the stone age too"
+echo "Trump: I will blast you to the stone age again"
+echo "Iran: We will blast you to the stone age again too"
+echo "Trump: I will blast you to the stone age again and again"
+echo"Iran: we will stop harmozgan and blast you to the stone age again and again"
+echo "Trump: I will blast you to the stone age again and again and again"
