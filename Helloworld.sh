@@ -7,3 +7,5 @@ echo "Goodbye!"
 echo "See you next time!"
 sleep 5
 echo "Exiting the script now."  
+echo "Script execution completed."
+echo "Have a great day!"
