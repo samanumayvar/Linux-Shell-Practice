@@ -1,6 +1,6 @@
 #!/bin/bash
-Person1="India"
-Person2="Pakistan"
+Person1="Russia"
+Person2="Ukraine"
 BASH="air strike"
 echo"$Person1: $Person2 i will $BASH you to the stone age"
 echo "$Person2: We will $BASH you to the stone age too"
