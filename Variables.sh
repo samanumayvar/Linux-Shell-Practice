@@ -8,4 +8,4 @@ echo "$Person1: I will $BASH you to the stone age again"
 echo "$Person2: We will $BASH you to the stone age again too"
 echo "$Person1: I will $BASH you to the stone age again and again"
 echo"$Person2: we will stop harmozgan and $BASH you to the stone age again and again"
-echo "$Person1: I will $BASH you to the stone age again and again and again"gi
+echo "$Person1: I will $BASH you to the stone age again and again and again"
