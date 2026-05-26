@@ -2,13 +2,15 @@
 
 echo "Hello World!"
 echo "Welcome to Linux Shell Scripting Practice!"
-sleep 10
+sleep 3
 echo "Goodbye!"
 echo "See you next time!"
-sleep 10
+sleep 5
 echo "Exiting the script now."  
 echo "Script execution completed."
 echo "Have a great day!"
 echo "Thank you for practicing with me!"
 echo "Remember to keep practicing to improve your skills!"
 echo "This is the end of the script."
+echo "Exiting now. Goodbye!"
+echo "Script has been exited successfully."
