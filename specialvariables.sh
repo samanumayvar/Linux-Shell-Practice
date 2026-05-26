@@ -18,3 +18,7 @@ sleep 5
 echo "PID of the last background process is: $!"
 wait $!
 echo "line number of the script is: $LINENO"
+echo "script execution time is: $SECONDS seconds"
+echo "RANDAM number is: $RANDOM"
+echo "BASH version is: $BASH_VERSION"
+SAKS
