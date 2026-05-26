@@ -19,4 +19,6 @@ echo "$Person2: We will $BASH you to the stone age again and again and again and
 echo "$Person1: I will $BASH you to the stone age again and again and again and again and again and again and again"
 sleep 5
 echo "$Person2: We will $BASH you to the stone age again and again and again and again and again and again and again too"
-echo "$Person1: I will $BASH you to the stone age again and again and again and again and again and again and again and
+echo "$Person1: I will $BASH you to the stone age again and again and again and again and again and again and again and again"
+echo "$Person2: We will $BASH you to the stone age again and again and again and again and again and again and again and again too"
+echo "$Person1: I will $BASH you to the stone age again and again and again and again and again and again and
