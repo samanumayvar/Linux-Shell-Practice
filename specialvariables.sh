@@ -9,5 +9,12 @@ echo "the fourth variable passed to the script is: $4"
 echo "who is running the script: $USER"
 echo "the current working directory is: $PWD"
 echo "the home directory of the user is: $HOME"
-echo "the current shell is: $SHELL"
+echo "the current shell is: $SHELL"                 
 echo "the current date and time is: $(date)"
+echo "the current hostname is: $HOSTNAME"   
+echo "the current process ID is: $$"
+echo "the last command exit status is: $?"
+sleep 5
+echo "PID of the last background process is: $!"
+wait $!
+echo "line number of the script is: $LINENO"
