@@ -1,7 +1,7 @@
 #!/bin/bash
-Person1="Russia"
-Person2="Ukraine"
-BASH="air strike"
+Person1=$1
+Person2=$2
+BASH=$3
 echo"$Person1: $Person2 i will $BASH you to the stone age"
 echo "$Person2: We will $BASH you to the stone age too"
 echo "$Person1: I will $BASH you to the stone age again"
