@@ -5,3 +5,6 @@ read USER_NAME
 echo "username is: $USER_NAME"
 echo "Please Enter Password:"
 read -s PASSWORD
+echo "Password is: $PASSWORD"
+echo "Confidential information has been entered successfully."
+echo "Exiting the script now. Goodbye!"
