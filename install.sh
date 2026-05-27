@@ -1,6 +1,4 @@
-#!/bin/bash
-
-#!/bin/bash
+#!/bin/bash 
 
 USERID=$(id -u)
 
@@ -11,13 +9,20 @@ fi
 
 echo "You are running as root user."
 
-echo "Installing MariaDB server..."
-
-yum install -y mariadb105-server
+rpm -qa | grep -i mariadb105-server &>/dev/null
 
 if [ $? -eq 0 ]; then
-    echo "MariaDB server installed successfully."
+    echo "MariaDB server is already installed."
+    exit 0
 else
-    echo "Failed to install MariaDB server."
-    exit 1
+    echo "Installing MariaDB server..."
+
+    yum install -y mariadb105-server
+
+    if [ $? -eq 0 ]; then
+        echo "MariaDB server installed successfully."
+    else
+        echo "Failed to install MariaDB server."
+        exit 1
+    fi
 fi
