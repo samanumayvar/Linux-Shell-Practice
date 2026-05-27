@@ -1,5 +1,7 @@
 #!/bin/bash
 
+#!/bin/bash
+
 USERID=$(id -u)
 
 if [ "$USERID" -ne 0 ]; then
@@ -9,13 +11,13 @@ fi
 
 echo "You are running as root user."
 
-echo "Installing MySQL server..."
+echo "Installing MariaDB server..."
 
-dnf install mysql -y 
+yum install -y mariadb105-server
 
 if [ $? -eq 0 ]; then
-    echo "MySQL server installed successfully."
+    echo "MariaDB server installed successfully."
 else
-    echo "Failed to install MySQL server."
+    echo "Failed to install MariaDB server."
     exit 1
 fi
