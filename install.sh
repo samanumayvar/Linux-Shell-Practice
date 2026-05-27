@@ -11,7 +11,7 @@ echo "You are running as root user."
 
 echo "Installing MySQL server..."
 
-yum install -y mysql-server
+dnf install mysql -y 
 
 if [ $? -eq 0 ]; then
     echo "MySQL server installed successfully."
