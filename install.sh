@@ -26,3 +26,9 @@ else
         exit 1
     fi
 fi
+if [ $? -eq 0 ]; then
+    echo "MariaDB server is already installed."
+else
+    echo "Failed to install MariaDB server."        
+    exit 1
+fi
